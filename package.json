@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js && npx tailwindcss -i ./Assets/input.css -o ./Assets/output.css --watch"
+    "start": "nodemon app.js && npx tailwindcss -i ./Assets/css/input.css -o ./Assets/css/output.css --watch"
   },
   "author": "Arkabrata Chandra and Aniruddha Mukherjee",
   "license": "ISC",
@@ -16,6 +16,6 @@
     "nodemon": "^3.1.4"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.6"
+    "tailwindcss": "^3.4.7"
   }
 }
