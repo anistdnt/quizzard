@@ -17,5 +17,12 @@
       {{{body}}}
     </div>
 </body>
-
+<script>
+  document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.menu').classList.toggle('translate-x-full');
+    });
+    document.querySelector('.close').addEventListener('click', function() {
+        document.querySelector('.menu').classList.toggle('translate-x-full');
+    });
+</script>
 </html>
