@@ -5,15 +5,18 @@ const path = require("path");
 const {engine} = require("express-handlebars");
 const home = require("./Rouer/Home/route");
 const startquiz = require("./Rouer/Startquiz/route");
+const exam = require("./Rouer/Examination/route");
 const port = process.env.PORT || 3000;
+const path = require('path')
 
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
 app.set('views', './views');
 
 app.use(express.static(path.join(__dirname,"Assets")));
-app.use("/",home);
 app.use("/startquiz",startquiz);
+app.use("/home",home);
+app.use("/exam",exam);
 
 const start = async()=>{
     try {
