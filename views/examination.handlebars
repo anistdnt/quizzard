@@ -1,1 +1,39 @@
-<img src="../Assets/Home/homeimage.jpg" alt="img">
+<div class="bg-yellow-50 w-11/12 md:w-10/12 px-1 md:px-8 py-6">
+    <div id="user-details" class=" mb-8 text-lg font-semibold">
+        <p>Username : <span class="text-xl text-yellow-600" style="text-shadow: 0.1px 0.1px 0.1px black;">Arkabrata
+                Chandra</span></p>
+        <p>Question Level : <span class="text-xl text-yellow-600"
+                style="text-shadow: 0.1px 0.1px 0.1px black;">Easy</span></p>
+        <p>Domain Choosen : <span class="text-xl text-yellow-600"
+                style="text-shadow: 0.1px 0.1px 0.1px black;">Technical</span></p>
+    </div>
+    <div id="score-board" class="mb-5">
+        <div
+            class="flex flex-col sm:flex-row border-yellow-400 border-4 px-3 py-2 justify-between items-center mb-3 font-semibold text-md">
+            <div>Total Questions : 10</div>
+            <div>10 x 1 = 10</div>
+        </div>
+        <div>
+            <p class="text-sm">Every Question Carries 1 marks and all are single answer type questions</p>
+        </div>
+    </div>
+    <form id="questions">
+        {{#each quizdata}}
+        <div class="mb-5 text-lg">
+            <p class="font-semibold mb-2"><span>{{@index}}. </span>{{this.qname}}</p>
+
+            {{#each this.options}}
+            <input type="radio" name="qname" value={{this}}>
+            <label for="css">{{this}}</label><br>
+            {{/each}}
+        </div>
+        {{/each}}
+        <p class="mb-4">Always check all answer carefully before submission</p>
+        <div id="btn" class="flex flex-row justify-center items-center gap-10">
+            <button type="reset" class="bg-yellow-200 px-5 py-2 shadow-lg"><i
+                    class="fa-solid fa-hourglass-start mr-1"></i>Reset</button>
+            <button type="submit" class="bg-yellow-400 px-5 py-2 shadow-lg"><i
+                    class="fa-solid fa-hourglass-start mr-1"></i>Submit</button>
+        </div>
+    </form>
+</div>
