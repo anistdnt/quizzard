@@ -1,6 +1,6 @@
 const homeFunc = (req,res)=>{
     try {
-        res.rendr("home");
+        res.render("home");
     } catch (error) {
         res.render("error",{
             msg : error.message
