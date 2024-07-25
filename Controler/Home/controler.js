@@ -1,5 +1,11 @@
-const homepage = (req,res)=>{
-    res.render('home')
+const homeFunc = (req,res)=>{
+    try {
+        res.render("home");
+    } catch (error) {
+        res.render("error",{
+            msg : error.message
+        })
+    }
 }
 
-module.exports = homepage;
+module.exports = {homeFunc};

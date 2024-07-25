@@ -1,15 +1,28 @@
-const express = require('express')
-const app = express()
-const port = 8000
-const home = require('./Rouer/Home/route.js')
-const engine = require('express-handlebars')
+const express = require("express");
+require("dotenv").config();
+const app = express();
+const {engine} = require("express-handlebars");
+const home = require("./Rouer/Home/route");
+const exam = require("./Rouer/Examination/route");
+const port = process.env.PORT || 3000;
+const path = require('path')
 
-app.engine('handlebars', engine.engine());
+app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
 app.set('views', './views');
+app.use(express.static(path.join(__dirname,"Assets")))
 
-app.use('/home',home)
+app.use("/home",home);
+app.use("/exam",exam);
 
-app.listen(port, ()=>{
-    console.log(`running on port ${port}`)
-})
+const start = async()=>{
+    try {
+        app.listen(port,()=>{
+            console.log(`Application started at port ${port}`);
+        })
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+start();
