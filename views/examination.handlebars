@@ -1,3 +1,19 @@
+<div id="examination-popup"
+    class=" hidden flex flex-row justify-center items-center top-0 bottom-0 left-0 right-0 fixed" style="background-color: rgba(255, 255, 255, 0.6);">
+    <div class=" w-96 px-4 py-4 bg-yellow-200 rounded-xl">
+        <p class="text-center text-lg font-semibold">Are you sure you want to submit the examination sheet ?</p>
+        <p class="text-center text-sm mt-2">Your test record will be stored securely for previous access</p>
+        <div class="flex flex-row justify-evenly mt-2">
+            <button class=" bg-yellow-100 px-5 py-1 rounded-lg hover:shadow-lg font-semibold
+            " id="exam-submit-no">No</button>
+            <button class="bg-yellow-400 px-5 py-1 rounded-lg hover:shadow-lg font-semibold"
+                id="exam-submit-yes">Yes</button>
+        </div>
+    </div>
+</div>
+
+
+
 <div class="bg-yellow-50 w-11/12 md:w-10/12 px-1 md:px-8 py-6">
     <div id="user-details" class=" mb-8 text-lg font-semibold">
         <p>Username : <span class="text-xl text-yellow-600" style="text-shadow: 0.1px 0.1px 0.1px black;">Arkabrata
@@ -19,12 +35,11 @@
     </div>
     <form id="questions">
         {{#each quizdata}}
-        <div class="mb-5 text-lg">
+        <div class="mb-5 text-lg question">
             <p class="font-semibold mb-2"><span>{{@index}}. </span>{{this.qname}}</p>
-
             {{#each this.options}}
-            <input type="radio" name="qname" value={{this}}>
-            <label for="css">{{this}}</label><br>
+            <input type="radio" name="{{../qname}}" value={{this}}>
+            <label for="label">{{this}}</label><br>
             {{/each}}
         </div>
         {{/each}}
@@ -32,7 +47,7 @@
         <div id="btn" class="flex flex-row justify-center items-center gap-10">
             <button type="reset" class="bg-yellow-200 px-5 py-2 shadow-lg"><i
                     class="fa-solid fa-hourglass-start mr-1"></i>Reset</button>
-            <button type="submit" class="bg-yellow-400 px-5 py-2 shadow-lg"><i
+            <button type="submit" class="bg-yellow-400 px-5 py-2 shadow-lg" id="exam-submit"><i
                     class="fa-solid fa-hourglass-start mr-1"></i>Submit</button>
         </div>
     </form>
