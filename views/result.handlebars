@@ -12,8 +12,8 @@
             class="flex flex-col sm:flex-row bg-yellow-400 px-3 py-2 justify-between items-center mb-3 font-semibold text-md">
             <div>You have corrected 5 out of 10 Questions</div>
             <div class="flex flex-row ">
-                <div class="mx-4"><i class="fa-solid fa-check mr-1"></i>5 Correct</div>
-                <div><i class="fa-solid fa-xmark mr-1"></i>5 Wrong</div>
+                <div class="mx-4"><i class="fa-solid fa-check mr-1 text-green-600"></i>5 Correct</div>
+                <div><i class="fa-solid fa-xmark mr-1 text-red-700"></i>5 Wrong</div>
             </div>
         </div>
     </div>
@@ -28,14 +28,14 @@
             {{/each}}
 
             {{#if this.status}}
-            <div class=" mt-4 bg-green-400">
-                <p>Your Answer : {{this.useranswer}}</p>
-                <p>Correct Answer : {{this.answer}}</p>
+            <div class=" mt-4 bg-green-400 font-semibold">
+                <p><i class="fa-solid fa-check mr-1 text-green-800"></i>Your Answer : {{this.useranswer}}</p>
+                <p><i class="fa-solid fa-check mr-1 text-green-800"></i>Correct Answer : {{this.answer}}</p>
             </div>
             {{else}}
-            <div class=" mt-4 bg-red-500">
-                <p>Your Answer : {{this.useranswer}}</p>
-                <p>Correct Answer : {{this.answer}}</p>
+            <div class=" mt-4 bg-red-400 font-semibold">
+                <p><i class="fa-solid fa-xmark mr-1 text-red-700"></i>Your Answer : {{this.useranswer}}</p>
+                <p><i class="fa-solid fa-check mr-1 text-green-600"></i>Correct Answer : {{this.answer}}</p>
             </div>
             {{/if}}
         </div>
