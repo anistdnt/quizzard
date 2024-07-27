@@ -1,6 +1,7 @@
 const express = require("express");
+const { resultFunc } = require("../../Controler/Results/controler");
 const router = express.Router();
-const {resultFunc} = require("../../Controler/Results/controler")
+
 
 router.get("/",resultFunc);
 

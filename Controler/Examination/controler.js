@@ -6,7 +6,7 @@ const examFunc = (req, res) => {
                     id: 1,
                     qtype: "easy",
                     domain: "technical",
-                    qname: "Javascript is ____ in nature?",
+                    qname: "Javascript is ____ in nature1?",
                     options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
                     answer: "Asynchronous"
                 },
@@ -14,7 +14,7 @@ const examFunc = (req, res) => {
                     id: 2,
                     qtype: "intermediate",
                     domain: "aptitude",
-                    qname: "Javascript is ____ in nature?",
+                    qname: "Javascript is ____ in nature2?",
                     options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
                     answer: "Asynchronous"
                 },
@@ -22,7 +22,7 @@ const examFunc = (req, res) => {
                     id: 3,
                     qtype: "easy",
                     domain: "political and history",
-                    qname: "Javascript is ____ in nature?",
+                    qname: "Javascript is ____ in nature3?",
                     options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
                     answer: "Asynchronous"
                 },
@@ -30,7 +30,7 @@ const examFunc = (req, res) => {
                     id: 4,
                     qtype: "easy",
                     domain: "geography",
-                    qname: "Javascript is ____ in nature?",
+                    qname: "Javascript is ____ in nature4?",
                     options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
                     answer: "Asynchronous"
                 }
