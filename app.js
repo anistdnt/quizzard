@@ -7,6 +7,7 @@ const home = require("./Rouer/Home/route");
 const startquiz = require("./Rouer/Startquiz/route");
 const exam = require("./Rouer/Examination/route");
 const prev = require("./Rouer/Previous/route");
+const result = require("./Rouer/Results/route");
 const port = process.env.PORT || 3000;
 
 app.engine('handlebars', engine());
@@ -18,6 +19,8 @@ app.use("/startquiz",startquiz);
 app.use("/",home);
 app.use("/exam",exam);
 app.use("/prev",prev);
+app.use("/result",result);
+
 
 const start = async()=>{
     try {
