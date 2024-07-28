@@ -1,0 +1,2615 @@
+[
+    {
+        "id": 1,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of the United States?",
+        "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "John Adams"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "id": 2,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "What does HTML stand for?",
+        "options": [
+            "HyperText Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinking Text Markup Language"
+        ],
+        "answer": "HyperText Markup Language"
+    },
+    {
+        "id": 3,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If the ratio of the sides of a rectangle is 2:3 and the perimeter is 50 cm, what is the area?",
+        "options": [
+            "100 cm²",
+            "150 cm²",
+            "200 cm²",
+            "250 cm²"
+        ],
+        "answer": "150 cm²"
+    },
+    {
+        "id": 4,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "What is the capital of Australia?",
+        "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ],
+        "answer": "Canberra"
+    },
+    {
+        "id": 5,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who wrote the Declaration of Independence?",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "James Madison",
+            "John Adams"
+        ],
+        "answer": "Thomas Jefferson"
+    },
+    {
+        "id": 6,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 7,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "A train travels at a speed of 60 km/h and covers a distance of 180 km. How long does it take to complete the journey?",
+        "options": [
+            "2 hours",
+            "3 hours",
+            "4 hours",
+            "5 hours"
+        ],
+        "answer": "3 hours"
+    },
+    {
+        "id": 8,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which is the largest ocean in the world?",
+        "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+        ],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "id": 9,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "What year did the Berlin Wall fall?",
+        "options": [
+            "1987",
+            "1988",
+            "1989",
+            "1990"
+        ],
+        "answer": "1989"
+    },
+    {
+        "id": 10,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does SQL stand for?",
+        "options": [
+            "Structured Query Language",
+            "Synchronous Query Language",
+            "Structured Quantile Language",
+            "Synchronous Quantile Language"
+        ],
+        "answer": "Structured Query Language"
+    },
+    {
+        "id": 11,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does HTML stand for?",
+        "options": [
+            "HyperText Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Hyper Tool Markup Language"
+        ],
+        "answer": "HyperText Markup Language"
+    },
+    {
+        "id": 12,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If 5x + 3 = 28, what is the value of x?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 13,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which is the longest river in the world?",
+        "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+        ],
+        "answer": "Nile River"
+    },
+    {
+        "id": 14,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who wrote the Declaration of Independence?",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "James Madison",
+            "John Adams"
+        ],
+        "answer": "Thomas Jefferson"
+    },
+    {
+        "id": 15,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "Which language is used for web apps?",
+        "options": [
+            "PHP",
+            "Python",
+            "JavaScript",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": 16,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the value of the sum of the first 50 natural numbers?",
+        "options": [
+            "1275",
+            "1375",
+            "1475",
+            "1575"
+        ],
+        "answer": "1275"
+    },
+    {
+        "id": 17,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known as the Land of the Rising Sun?",
+        "options": [
+            "China",
+            "Japan",
+            "South Korea",
+            "Thailand"
+        ],
+        "answer": "Japan"
+    },
+    {
+        "id": 18,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the British Prime Minister during World War II?",
+        "options": [
+            "Winston Churchill",
+            "Neville Chamberlain",
+            "Clement Attlee",
+            "Harold Macmillan"
+        ],
+        "answer": "Winston Churchill"
+    },
+    {
+        "id": 19,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of binary search algorithm?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n^2)",
+            "O(n log n)"
+        ],
+        "answer": "O(log n)"
+    },
+    {
+        "id": 20,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "What is 25% of 200?",
+        "options": [
+            "50",
+            "25",
+            "75",
+            "100"
+        ],
+        "answer": "50"
+    },
+    {
+        "id": 21,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which country has the largest population?",
+        "options": [
+            "India",
+            "USA",
+            "China",
+            "Indonesia"
+        ],
+        "answer": "China"
+    },
+    {
+        "id": 22,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "answer": "Cascading Style Sheets"
+    },
+    {
+        "id": 23,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "What is the value of 7 + 8?",
+        "options": [
+            "14",
+            "15",
+            "16",
+            "17"
+        ],
+        "answer": "15"
+    },
+    {
+        "id": 24,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which is the smallest country in the world?",
+        "options": [
+            "Monaco",
+            "Malta",
+            "Vatican City",
+            "San Marino"
+        ],
+        "answer": "Vatican City"
+    },
+    {
+        "id": 25,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of India?",
+        "options": [
+            "Jawaharlal Nehru",
+            "Rajendra Prasad",
+            "Indira Gandhi",
+            "Sardar Patel"
+        ],
+        "answer": "Rajendra Prasad"
+    },
+    {
+        "id": 26,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "What does CPU stand for?",
+        "options": [
+            "Central Process Unit",
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Processor Unit"
+        ],
+        "answer": "Central Processing Unit"
+    },
+    {
+        "id": 27,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If x + y = 10 and x - y = 2, what is the value of x?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+        ],
+        "answer": "6"
+    },
+    {
+        "id": 28,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "What is the longest river in Africa?",
+        "options": [
+            "Nile River",
+            "Congo River",
+            "Niger River",
+            "Zambezi River"
+        ],
+        "answer": "Nile River"
+    },
+    {
+        "id": 29,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the 16th President of the United States?",
+        "options": [
+            "Abraham Lincoln",
+            "George Washington",
+            "Thomas Jefferson",
+            "Theodore Roosevelt"
+        ],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "id": 30,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the primary function of a router?",
+        "options": [
+            "To store data",
+            "To send data between networks",
+            "To display web pages",
+            "To process requests"
+        ],
+        "answer": "To send data between networks"
+    },
+    {
+        "id": 31,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If 3x - 5 = 10, what is the value of x?",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "8"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 32,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of France?",
+        "options": [
+            "Berlin",
+            "Madrid",
+            "Rome",
+            "Paris"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "id": 33,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first female Prime Minister of the UK?",
+        "options": [
+            "Margaret Thatcher",
+            "Theresa May",
+            "Angela Merkel",
+            "Indira Gandhi"
+        ],
+        "answer": "Margaret Thatcher"
+    },
+    {
+        "id": 34,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the Big O notation for the worst-case time complexity of quicksort?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "id": 35,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If the area of a square is 64 cm², what is the length of one side?",
+        "options": [
+            "6 cm",
+            "7 cm",
+            "8 cm",
+            "9 cm"
+        ],
+        "answer": "8 cm"
+    },
+    {
+        "id": 36,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of Japan?",
+        "options": [
+            "Seoul",
+            "Beijing",
+            "Tokyo",
+            "Bangkok"
+        ],
+        "answer": "Tokyo"
+    },
+    {
+        "id": 37,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first Secretary-General of the United Nations?",
+        "options": [
+            "Trygve Lie",
+            "Dag Hammarskjöld",
+            "U Thant",
+            "Kofi Annan"
+        ],
+        "answer": "Trygve Lie"
+    },
+    {
+        "id": 38,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the default port number for HTTP?",
+        "options": [
+            "21",
+            "22",
+            "80",
+            "443"
+        ],
+        "answer": "80"
+    },
+    {
+        "id": 39,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the value of the square root of 144?",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": "12"
+    },
+    {
+        "id": 40,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which is the largest continent by area?",
+        "options": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America"
+        ],
+        "answer": "Asia"
+    },
+    {
+        "id": 41,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the 3rd President of the United States?",
+        "options": [
+            "James Madison",
+            "James Monroe",
+            "John Adams",
+            "Thomas Jefferson"
+        ],
+        "answer": "Thomas Jefferson"
+    },
+    {
+        "id": 42,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the purpose of a firewall?",
+        "options": [
+            "To increase internet speed",
+            "To block unauthorized access",
+            "To store data",
+            "To cool down the computer"
+        ],
+        "answer": "To block unauthorized access"
+    },
+    {
+        "id": 43,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a car travels 240 km in 4 hours, what is its average speed?",
+        "options": [
+            "50 km/h",
+            "55 km/h",
+            "60 km/h",
+            "65 km/h"
+        ],
+        "answer": "60 km/h"
+    },
+    {
+        "id": 44,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of Germany?",
+        "options": [
+            "Vienna",
+            "Berlin",
+            "Zurich",
+            "Munich"
+        ],
+        "answer": "Berlin"
+    },
+    {
+        "id": 45,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "When did the American Civil War end?",
+        "options": [
+            "1861",
+            "1863",
+            "1865",
+            "1867"
+        ],
+        "answer": "1865"
+    },
+    {
+        "id": 46,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "Which sorting algorithm has the best average time complexity?",
+        "options": [
+            "Bubble sort",
+            "Insertion sort",
+            "Merge sort",
+            "Selection sort"
+        ],
+        "answer": "Merge sort"
+    },
+    {
+        "id": 47,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If 12x = 84, what is the value of x?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": "7"
+    },
+    {
+        "id": 48,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known for its maple syrup?",
+        "options": [
+            "USA",
+            "Canada",
+            "Mexico",
+            "Brazil"
+        ],
+        "answer": "Canada"
+    },
+    {
+        "id": 49,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the Prime Minister of the UK in 2020?",
+        "options": [
+            "David Cameron",
+            "Theresa May",
+            "Boris Johnson",
+            "Rishi Sunak"
+        ],
+        "answer": "Boris Johnson"
+    },
+    {
+        "id": 50,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the space complexity of merge sort?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 51,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the value of 9²?",
+        "options": [
+            "80",
+            "81",
+            "82",
+            "83"
+        ],
+        "answer": "81"
+    },
+    {
+        "id": 52,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of Italy?",
+        "options": [
+            "Paris",
+            "Madrid",
+            "Rome",
+            "Athens"
+        ],
+        "answer": "Rome"
+    },
+    {
+        "id": 53,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the second President of the United States?",
+        "options": [
+            "Thomas Jefferson",
+            "John Adams",
+            "James Madison",
+            "James Monroe"
+        ],
+        "answer": "John Adams"
+    },
+    {
+        "id": 54,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the main purpose of the OSI model?",
+        "options": [
+            "To provide internet access",
+            "To ensure secure communication",
+            "To standardize network communication",
+            "To increase network speed"
+        ],
+        "answer": "To standardize network communication"
+    },
+    {
+        "id": 55,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a person travels 90 km in 2 hours, what is their average speed?",
+        "options": [
+            "40 km/h",
+            "45 km/h",
+            "50 km/h",
+            "55 km/h"
+        ],
+        "answer": "45 km/h"
+    },
+    {
+        "id": 56,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known for the Eiffel Tower?",
+        "options": [
+            "Germany",
+            "Spain",
+            "France",
+            "Italy"
+        ],
+        "answer": "France"
+    },
+    {
+        "id": 57,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first Chancellor of Germany?",
+        "options": [
+            "Konrad Adenauer",
+            "Angela Merkel",
+            "Otto von Bismarck",
+            "Willy Brandt"
+        ],
+        "answer": "Otto von Bismarck"
+    },
+    {
+        "id": 58,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the average-case time complexity of heap sort?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n log n)"
+    },
+    {
+        "id": 59,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a rectangle has a length of 10 cm and a width of 5 cm, what is its perimeter?",
+        "options": [
+            "20 cm",
+            "25 cm",
+            "30 cm",
+            "35 cm"
+        ],
+        "answer": "30 cm"
+    },
+    {
+        "id": 60,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which is the smallest ocean in the world?",
+        "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+        ],
+        "answer": "Arctic Ocean"
+    },
+    {
+        "id": 61,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of South Africa after the end of apartheid?",
+        "options": [
+            "Nelson Mandela",
+            "F.W. de Klerk",
+            "Jacob Zuma",
+            "Thabo Mbeki"
+        ],
+        "answer": "Nelson Mandela"
+    },
+    {
+        "id": 62,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the main function of DNS in networking?",
+        "options": [
+            "To increase internet speed",
+            "To block unauthorized access",
+            "To translate domain names to IP addresses",
+            "To provide email services"
+        ],
+        "answer": "To translate domain names to IP addresses"
+    },
+    {
+        "id": 63,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a person has 4 apples and gives away 3, how many apples are left?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 64,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of Canada?",
+        "options": [
+            "Toronto",
+            "Vancouver",
+            "Ottawa",
+            "Montreal"
+        ],
+        "answer": "Ottawa"
+    },
+    {
+        "id": 65,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of Russia?",
+        "options": [
+            "Vladimir Putin",
+            "Boris Yeltsin",
+            "Dmitry Medvedev",
+            "Mikhail Gorbachev"
+        ],
+        "answer": "Boris Yeltsin"
+    },
+    {
+        "id": 66,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the worst-case time complexity of insertion sort?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "id": 67,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If 5y - 3 = 2, what is the value of y?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 68,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known for the Great Wall?",
+        "options": [
+            "Japan",
+            "China",
+            "India",
+            "Russia"
+        ],
+        "answer": "China"
+    },
+    {
+        "id": 69,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the US President during the Cuban Missile Crisis?",
+        "options": [
+            "Dwight D. Eisenhower",
+            "John F. Kennedy",
+            "Lyndon B. Johnson",
+            "Richard Nixon"
+        ],
+        "answer": "John F. Kennedy"
+    },
+    {
+        "id": 70,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the average-case time complexity of quicksort?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(n^2)"
+        ],
+        "answer": "O(n log n)"
+    },
+    {
+        "id": 71,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a triangle has a base of 5 cm and a height of 10 cm, what is its area?",
+        "options": [
+            "50 cm²",
+            "100 cm²",
+            "150 cm²",
+            "200 cm²"
+        ],
+        "answer": "50 cm²"
+    },
+    {
+        "id": 72,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which continent is the Sahara Desert located on?",
+        "options": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "Europe"
+        ],
+        "answer": "Africa"
+    },
+    {
+        "id": 73,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the Prime Minister of India in 1947?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Indira Gandhi",
+            "Rajiv Gandhi"
+        ],
+        "answer": "Jawaharlal Nehru"
+    },
+    {
+        "id": 74,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the purpose of a MAC address in networking?",
+        "options": [
+            "To identify devices on a network",
+            "To provide internet access",
+            "To block unauthorized access",
+            "To increase network speed"
+        ],
+        "answer": "To identify devices on a network"
+    },
+    {
+        "id": 75,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If the sum of two numbers is 15 and their product is 56, what are the numbers?",
+        "options": [
+            "7 and 8",
+            "5 and 10",
+            "6 and 9",
+            "4 and 11"
+        ],
+        "answer": "7 and 8"
+    },
+    {
+        "id": 76,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the largest continent by land area?",
+        "options": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America"
+        ],
+        "answer": "Asia"
+    },
+    {
+        "id": 77,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first Prime Minister of the United Kingdom?",
+        "options": [
+            "Winston Churchill",
+            "Robert Walpole",
+            "Benjamin Disraeli",
+            "Margaret Thatcher"
+        ],
+        "answer": "Robert Walpole"
+    },
+    {
+        "id": 78,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of the Floyd-Warshall algorithm?",
+        "options": [
+            "O(n^2)",
+            "O(n^3)",
+            "O(n log n)",
+            "O(n)"
+        ],
+        "answer": "O(n^3)"
+    },
+    {
+        "id": 79,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the value of 8³?",
+        "options": [
+            "500",
+            "512",
+            "516",
+            "520"
+        ],
+        "answer": "512"
+    },
+    {
+        "id": 80,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known as the Land of the Midnight Sun?",
+        "options": [
+            "Sweden",
+            "Norway",
+            "Finland",
+            "Iceland"
+        ],
+        "answer": "Norway"
+    },
+    {
+        "id": 81,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the 16th President of the United States?",
+        "options": [
+            "Andrew Jackson",
+            "Abraham Lincoln",
+            "Ulysses S. Grant",
+            "Theodore Roosevelt"
+        ],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "id": 82,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the primary purpose of a firewall in networking?",
+        "options": [
+            "To increase internet speed",
+            "To block unauthorized access",
+            "To provide email services",
+            "To ensure secure communication"
+        ],
+        "answer": "To block unauthorized access"
+    },
+    {
+        "id": 83,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a person has $100 and spends $45, how much is left?",
+        "options": [
+            "$45",
+            "$50",
+            "$55",
+            "$60"
+        ],
+        "answer": "$55"
+    },
+    {
+        "id": 84,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of Spain?",
+        "options": [
+            "Barcelona",
+            "Lisbon",
+            "Madrid",
+            "Valencia"
+        ],
+        "answer": "Madrid"
+    },
+    {
+        "id": 85,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": [
+            "Margaret Thatcher",
+            "Theresa May",
+            "Angela Merkel",
+            "Indira Gandhi"
+        ],
+        "answer": "Margaret Thatcher"
+    },
+    {
+        "id": 86,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of the Bellman-Ford algorithm?",
+        "options": [
+            "O(n^2)",
+            "O(n^3)",
+            "O(n log n)",
+            "O(n)"
+        ],
+        "answer": "O(n^2)"
+    },
+    {
+        "id": 87,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a car travels 120 km in 3 hours, what is its average speed?",
+        "options": [
+            "30 km/h",
+            "40 km/h",
+            "50 km/h",
+            "60 km/h"
+        ],
+        "answer": "40 km/h"
+    },
+    {
+        "id": 88,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known for its tulips?",
+        "options": [
+            "Belgium",
+            "Netherlands",
+            "France",
+            "Germany"
+        ],
+        "answer": "Netherlands"
+    },
+    {
+        "id": 89,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of the United States to be impeached?",
+        "options": [
+            "Andrew Johnson",
+            "Richard Nixon",
+            "Bill Clinton",
+            "Donald Trump"
+        ],
+        "answer": "Andrew Johnson"
+    },
+    {
+        "id": 90,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the space complexity of depth-first search (DFS)?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "answer": "O(n)"
+    },
+    {
+        "id": 91,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If 2a + 3 = 11, what is the value of a?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "4"
+    },
+    {
+        "id": 92,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which is the largest country in the world by land area?",
+        "options": [
+            "Canada",
+            "China",
+            "USA",
+            "Russia"
+        ],
+        "answer": "Russia"
+    },
+    {
+        "id": 93,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first female President of Brazil?",
+        "options": [
+            "Dilma Rousseff",
+            "Luiza Erundina",
+            "Marina Silva",
+            "Marta Suplicy"
+        ],
+        "answer": "Dilma Rousseff"
+    },
+    {
+        "id": 94,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the main function of an IP address?",
+        "options": [
+            "To increase internet speed",
+            "To provide email services",
+            "To identify devices on a network",
+            "To block unauthorized access"
+        ],
+        "answer": "To identify devices on a network"
+    },
+    {
+        "id": 95,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a circle has a radius of 7 cm, what is its circumference? (Use π = 22/7)",
+        "options": [
+            "44 cm",
+            "47 cm",
+            "50 cm",
+            "53 cm"
+        ],
+        "answer": "44 cm"
+    },
+    {
+        "id": 96,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which continent is known as the birthplace of Western civilization?",
+        "options": [
+            "Asia",
+            "Europe",
+            "Africa",
+            "North America"
+        ],
+        "answer": "Europe"
+    },
+    {
+        "id": 97,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the first President of the United States?",
+        "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "John Adams",
+            "James Madison"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "id": 98,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of the Dijkstra's algorithm?",
+        "options": [
+            "O(n^2)",
+            "O(n^3)",
+            "O(n log n)",
+            "O(n)"
+        ],
+        "answer": "O(n log n)"
+    },
+    {
+        "id": 99,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a rectangle has a length of 8 cm and a width of 3 cm, what is its area?",
+        "options": [
+            "16 cm²",
+            "24 cm²",
+            "28 cm²",
+            "32 cm²"
+        ],
+        "answer": "24 cm²"
+    },
+    {
+        "id": 100,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is known for the pyramids of Giza?",
+        "options": [
+            "Mexico",
+            "China",
+            "Peru",
+            "Egypt"
+        ],
+        "answer": "Egypt"
+    },
+    {
+        "id": 101,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "What does CSS stand for web development?",
+        "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Coded Style Sheets"
+        ],
+        "answer": "Cascading Style Sheets"
+    },
+    {
+        "id": 102,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the square root of 144?",
+        "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+        ],
+        "answer": "12"
+    },
+    {
+        "id": 103,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "What is the largest desert in the world?",
+        "options": [
+            "Sahara Desert",
+            "Gobi Desert",
+            "Karakum Desert",
+            "Antarctic Desert"
+        ],
+        "answer": "Antarctic Desert"
+    },
+    {
+        "id": 104,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first Emperor of China?",
+        "options": [
+            "Qin Shi Huang",
+            "Han Wudi",
+            "Kangxi",
+            "Yongle"
+        ],
+        "answer": "Qin Shi Huang"
+    },
+    {
+        "id": 105,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does API stand for?",
+        "options": [
+            "Application Programming Interface",
+            "Automated Programming Interface",
+            "Application Protocol Interface",
+            "Advanced Programming Interface"
+        ],
+        "answer": "Application Programming Interface"
+    },
+    {
+        "id": 106,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the value of 7 factorial (7!)?",
+        "options": [
+            "5040",
+            "7200",
+            "40320",
+            "50400"
+        ],
+        "answer": "5040"
+    },
+    {
+        "id": 107,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital of France?",
+        "options": [
+            "Paris",
+            "Rome",
+            "Berlin",
+            "Madrid"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "id": 108,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "In which year did World War I begin?",
+        "options": [
+            "1910",
+            "1912",
+            "1914",
+            "1916"
+        ],
+        "answer": "1914"
+    },
+    {
+        "id": 109,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the purpose of a DNS server?",
+        "options": [
+            "To resolve domain names to IP addresses",
+            "To manage network traffic",
+            "To provide email services",
+            "To encrypt data"
+        ],
+        "answer": "To resolve domain names to IP addresses"
+    },
+    {
+        "id": 110,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is the Great Wall of China located in?",
+        "options": [
+            "China",
+            "Japan",
+            "South Korea",
+            "Vietnam"
+        ],
+        "answer": "China"
+    },
+    {
+        "id": 111,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the last Emperor of Russia?",
+        "options": [
+            "Nicholas I",
+            "Nicholas II",
+            "Alexander III",
+            "Peter the Great"
+        ],
+        "answer": "Nicholas II"
+    },
+    {
+        "id": 112,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the sum of the angles in a hexagon?",
+        "options": [
+            "540 degrees",
+            "720 degrees",
+            "900 degrees",
+            "1080 degrees"
+        ],
+        "answer": "720 degrees"
+    },
+    {
+        "id": 113,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which language is primarily used for web development?",
+        "options": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "C++"
+        ],
+        "answer": "JavaScript"
+    },
+    {
+        "id": 114,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which river is the longest in Europe?",
+        "options": [
+            "Rhine",
+            "Danube",
+            "Volga",
+            "Elbe"
+        ],
+        "answer": "Volga"
+    },
+    {
+        "id": 115,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which treaty ended World War II in Europe?",
+        "options": [
+            "Treaty of Versailles",
+            "Treaty of Paris",
+            "Treaty of Berlin",
+            "Treaty of Moscow"
+        ],
+        "answer": "Treaty of Berlin"
+    },
+    {
+        "id": 116,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "What does URL stand for?",
+        "options": [
+            "Uniform Resource Locator",
+            "Universal Resource Locator",
+            "Uniform Retrieval Locator",
+            "Universal Retrieval Locator"
+        ],
+        "answer": "Uniform Resource Locator"
+    },
+    {
+        "id": 117,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the value of 15% of 200?",
+        "options": [
+            "20",
+            "25",
+            "30",
+            "35"
+        ],
+        "answer": "30"
+    },
+    {
+        "id": 118,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which is the largest island in the world?",
+        "options": [
+            "New Guinea",
+            "Greenland",
+            "Borneo",
+            "Madagascar"
+        ],
+        "answer": "Greenland"
+    },
+    {
+        "id": 119,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Which U.S. President is known for the Emancipation Proclamation?",
+        "options": [
+            "Abraham Lincoln",
+            "George Washington",
+            "Thomas Jefferson",
+            "Andrew Jackson"
+        ],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "id": 120,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What is the main purpose of a compiler?",
+        "options": [
+            "To execute code",
+            "To translate code into machine language",
+            "To debug code",
+            "To optimize code"
+        ],
+        "answer": "To translate code into machine language"
+    },
+    {
+        "id": 121,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If a clock shows 3:15, what is the angle between the hour and minute hands?",
+        "options": [
+            "30 degrees",
+            "37.5 degrees",
+            "45 degrees",
+            "90 degrees"
+        ],
+        "answer": "37.5 degrees"
+    },
+    {
+        "id": 122,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the smallest continent in the world?",
+        "options": [
+            "Australia",
+            "Europe",
+            "Antarctica",
+            "South America"
+        ],
+        "answer": "Australia"
+    },
+    {
+        "id": 123,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Who was the leader of the Soviet Union during World War II?",
+        "options": [
+            "Leon Trotsky",
+            "Vladimir Lenin",
+            "Joseph Stalin",
+            "Nikita Khrushchev"
+        ],
+        "answer": "Joseph Stalin"
+    },
+    {
+        "id": 124,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the time complexity of quicksort in the average case?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "answer": "O(n log n)"
+    },
+    {
+        "id": 125,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the longest river in Asia?",
+        "options": [
+            "Yangtze River",
+            "Mekong River",
+            "Ganges River",
+            "Indus River"
+        ],
+        "answer": "Yangtze River"
+    },
+    {
+        "id": 126,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does GPU stand for?",
+        "options": [
+            "Graphics Processing Unit",
+            "General Processing Unit",
+            "Graphics Programming Unit",
+            "General Programming Unit"
+        ],
+        "answer": "Graphics Processing Unit"
+    },
+    {
+        "id": 127,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If a person invests $1000 at an annual interest rate of 5%, what will be the amount after 3 years (simple interest)?",
+        "options": [
+            "$1150",
+            "$1200",
+            "$1250",
+            "$1300"
+        ],
+        "answer": "$1150"
+    },
+    {
+        "id": 128,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": [
+            "Amelia Earhart",
+            "Bessie Coleman",
+            "Harriet Quimby",
+            "Jacqueline Cochran"
+        ],
+        "answer": "Amelia Earhart"
+    },
+    {
+        "id": 129,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which of these countries is landlocked?",
+        "options": [
+            "Spain",
+            "Brazil",
+            "Switzerland",
+            "Australia"
+        ],
+        "answer": "Switzerland"
+    },
+    {
+        "id": 130,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the main advantage of using a linked list over an array?",
+        "options": [
+            "Faster access to elements",
+            "Dynamic size",
+            "Better cache performance",
+            "Easier to implement"
+        ],
+        "answer": "Dynamic size"
+    },
+    {
+        "id": 131,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which HTML element is used to define the structure of a web page?",
+        "options": [
+            "<header>",
+            "<body>",
+            "<footer>",
+            "<section>"
+        ],
+        "answer": "<body>"
+    },
+    {
+        "id": 132,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "How many sides does a decagon have?",
+        "options": [
+            "10",
+            "12",
+            "8",
+            "15"
+        ],
+        "answer": "10"
+    },
+    {
+        "id": 133,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which U.S. President signed the Emancipation Proclamation?",
+        "options": [
+            "Abraham Lincoln",
+            "Andrew Johnson",
+            "Ulysses S. Grant",
+            "Theodore Roosevelt"
+        ],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "id": 134,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which ocean is to the east of Africa?",
+        "options": [
+            "Atlantic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ],
+        "answer": "Indian Ocean"
+    },
+    {
+        "id": 135,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does the 'P' in 'PHP' stand for?",
+        "options": [
+            "Programming",
+            "Personal",
+            "Private",
+            "Public"
+        ],
+        "answer": "Personal"
+    },
+    {
+        "id": 136,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the sum of the first 100 odd numbers?",
+        "options": [
+            "10000",
+            "5000",
+            "100",
+            "2500"
+        ],
+        "answer": "2500"
+    },
+    {
+        "id": 137,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Which country was ruled by Queen Victoria?",
+        "options": [
+            "United Kingdom",
+            "France",
+            "Germany",
+            "Spain"
+        ],
+        "answer": "United Kingdom"
+    },
+    {
+        "id": 138,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which desert is known as the driest place on Earth?",
+        "options": [
+            "Gobi Desert",
+            "Sahara Desert",
+            "Atacama Desert",
+            "Karakum Desert"
+        ],
+        "answer": "Atacama Desert"
+    },
+    {
+        "id": 139,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "Which of the following is a non-volatile memory?",
+        "options": [
+            "RAM",
+            "Cache",
+            "ROM",
+            "Registers"
+        ],
+        "answer": "ROM"
+    },
+    {
+        "id": 140,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which country is the Eiffel Tower located in?",
+        "options": [
+            "Germany",
+            "Italy",
+            "France",
+            "Spain"
+        ],
+        "answer": "France"
+    },
+    {
+        "id": 141,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a car travels 60 km in 1 hour, how long will it take to travel 300 km?",
+        "options": [
+            "4 hours",
+            "5 hours",
+            "6 hours",
+            "7 hours"
+        ],
+        "answer": "5 hours"
+    },
+    {
+        "id": 142,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which empire was ruled by Genghis Khan?",
+        "options": [
+            "Mongol Empire",
+            "Ottoman Empire",
+            "Roman Empire",
+            "Persian Empire"
+        ],
+        "answer": "Mongol Empire"
+    },
+    {
+        "id": 143,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which of the following is not a programming language?",
+        "options": [
+            "Java",
+            "HTML",
+            "Python",
+            "Ruby"
+        ],
+        "answer": "HTML"
+    },
+    {
+        "id": 144,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which of these countries has the longest coastline?",
+        "options": [
+            "Australia",
+            "Canada",
+            "Russia",
+            "USA"
+        ],
+        "answer": "Canada"
+    },
+    {
+        "id": 145,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "In a right-angled triangle, if one angle is 30 degrees, what is the other non-right angle?",
+        "options": [
+            "45 degrees",
+            "60 degrees",
+            "75 degrees",
+            "90 degrees"
+        ],
+        "answer": "60 degrees"
+    },
+    {
+        "id": 146,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which mountain range is located in South America?",
+        "options": [
+            "Himalayas",
+            "Andes",
+            "Rockies",
+            "Alps"
+        ],
+        "answer": "Andes"
+    },
+    {
+        "id": 147,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What is the primary function of an operating system?",
+        "options": [
+            "Manage hardware and software resources",
+            "Execute user applications",
+            "Compile code",
+            "Encrypt data"
+        ],
+        "answer": "Manage hardware and software resources"
+    },
+    {
+        "id": 148,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "What was the name of the first artificial satellite launched into space?",
+        "options": [
+            "Sputnik 1",
+            "Vostok 1",
+            "Apollo 11",
+            "Explorer 1"
+        ],
+        "answer": "Sputnik 1"
+    },
+    {
+        "id": 149,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which of these is a web browser?",
+        "options": [
+            "Microsoft Word",
+            "Adobe Photoshop",
+            "Google Chrome",
+            "Microsoft Excel"
+        ],
+        "answer": "Google Chrome"
+    },
+    {
+        "id": 150,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which city is known as the 'City of Canals'?",
+        "options": [
+            "Amsterdam",
+            "Venice",
+            "Cairo",
+            "Paris"
+        ],
+        "answer": "Venice"
+    },
+    {
+        "id": 151,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "Which protocol is used for secure communication over the internet?",
+        "options": [
+            "HTTP",
+            "HTTPS",
+            "FTP",
+            "SMTP"
+        ],
+        "answer": "HTTPS"
+    },
+    {
+        "id": 152,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first President of South Africa to be elected in a fully representative democratic election?",
+        "options": [
+            "Nelson Mandela",
+            "Desmond Tutu",
+            "Thabo Mbeki",
+            "Jacob Zuma"
+        ],
+        "answer": "Nelson Mandela"
+    },
+    {
+        "id": 153,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the value of 8²?",
+        "options": [
+            "64",
+            "32",
+            "16",
+            "128"
+        ],
+        "answer": "64"
+    },
+    {
+        "id": 154,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which country has the largest population density?",
+        "options": [
+            "Monaco",
+            "Singapore",
+            "Bahrain",
+            "Bangladesh"
+        ],
+        "answer": "Monaco"
+    },
+    {
+        "id": 155,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which of the following is used to style web pages?",
+        "options": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SQL"
+        ],
+        "answer": "CSS"
+    },
+    {
+        "id": 156,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Which war was fought between the North and South regions of the United States?",
+        "options": [
+            "Revolutionary War",
+            "Civil War",
+            "World War I",
+            "World War II"
+        ],
+        "answer": "Civil War"
+    },
+    {
+        "id": 157,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is a common data structure used to implement a LIFO (Last In, First Out) system?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Linked List",
+            "Tree"
+        ],
+        "answer": "Stack"
+    },
+    {
+        "id": 158,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which continent is known as the 'Dark Continent'?",
+        "options": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "South America"
+        ],
+        "answer": "Africa"
+    },
+    {
+        "id": 159,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What is the full form of 'SQL'?",
+        "options": [
+            "Structured Query Language",
+            "Standard Query Language",
+            "Simple Query Language",
+            "Structured Quality Language"
+        ],
+        "answer": "Structured Query Language"
+    },
+    {
+        "id": 160,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If a triangle has two angles measuring 45 degrees each, what is the measure of the third angle?",
+        "options": [
+            "90 degrees",
+            "45 degrees",
+            "60 degrees",
+            "30 degrees"
+        ],
+        "answer": "90 degrees"
+    },
+    {
+        "id": 161,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the leader of the Indian independence movement?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose",
+            "Bhagat Singh"
+        ],
+        "answer": "Mahatma Gandhi"
+    },
+    {
+        "id": 162,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which country is the island of Iceland part of?",
+        "options": [
+            "Scandinavia",
+            "North America",
+            "Europe",
+            "Asia"
+        ],
+        "answer": "Europe"
+    },
+    {
+        "id": 163,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What does 'URL' stand for in web development?",
+        "options": [
+            "Uniform Resource Locator",
+            "Uniform Retrieval Locator",
+            "Universal Resource Locator",
+            "Uniform Resource Link"
+        ],
+        "answer": "Uniform Resource Locator"
+    },
+    {
+        "id": 164,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which tag is used to insert an image in HTML?",
+        "options": [
+            "<image>",
+            "<img>",
+            "<picture>",
+            "<photo>"
+        ],
+        "answer": "<img>"
+    },
+    {
+        "id": 165,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Which historical figure is known as the 'Father of the Nation' in India?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Sardar Patel",
+            "Bhagat Singh"
+        ],
+        "answer": "Mahatma Gandhi"
+    },
+    {
+        "id": 166,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "What is the smallest country in the world by land area?",
+        "options": [
+            "Monaco",
+            "San Marino",
+            "Vatican City",
+            "Liechtenstein"
+        ],
+        "answer": "Vatican City"
+    },
+    {
+        "id": 167,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first President of the United States?",
+        "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "John Adams"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "id": 168,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What is the purpose of a database?",
+        "options": [
+            "To store and manage data",
+            "To display web pages",
+            "To process payments",
+            "To execute programs"
+        ],
+        "answer": "To store and manage data"
+    },
+    {
+        "id": 169,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the next number in the sequence 2, 6, 12, 20, ...?",
+        "options": [
+            "30",
+            "28",
+            "24",
+            "32"
+        ],
+        "answer": "30"
+    },
+    {
+        "id": 170,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which city is known as 'The Big Apple'?",
+        "options": [
+            "Los Angeles",
+            "Chicago",
+            "New York City",
+            "San Francisco"
+        ],
+        "answer": "New York City"
+    },
+    {
+        "id": 171,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "What year did the Titanic sink?",
+        "options": [
+            "1910",
+            "1912",
+            "1914",
+            "1916"
+        ],
+        "answer": "1912"
+    },
+    {
+        "id": 172,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the function of an IP address?",
+        "options": [
+            "Identify devices on a network",
+            "Encrypt data",
+            "Send emails",
+            "Store files"
+        ],
+        "answer": "Identify devices on a network"
+    },
+    {
+        "id": 173,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which of these is a cloud storage service?",
+        "options": [
+            "Dropbox",
+            "Microsoft Word",
+            "Adobe Photoshop",
+            "Google Chrome"
+        ],
+        "answer": "Dropbox"
+    },
+    {
+        "id": 174,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "What is the cube of 5?",
+        "options": [
+            "125",
+            "100",
+            "150",
+            "175"
+        ],
+        "answer": "125"
+    },
+    {
+        "id": 175,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which battle is considered the turning point in the American Civil War?",
+        "options": [
+            "Battle of Gettysburg",
+            "Battle of Antietam",
+            "Battle of Bull Run",
+            "Battle of Fort Sumter"
+        ],
+        "answer": "Battle of Gettysburg"
+    },
+    {
+        "id": 176,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "Which of these is a version control system?",
+        "options": [
+            "Git",
+            "JIRA",
+            "Slack",
+            "Trello"
+        ],
+        "answer": "Git"
+    },
+    {
+        "id": 177,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which country is known for its tulip fields?",
+        "options": [
+            "France",
+            "Netherlands",
+            "Belgium",
+            "Germany"
+        ],
+        "answer": "Netherlands"
+    },
+    {
+        "id": 178,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "If a person travels 80 km in 2 hours, what is their speed in km/h?",
+        "options": [
+            "40 km/h",
+            "30 km/h",
+            "50 km/h",
+            "60 km/h"
+        ],
+        "answer": "40 km/h"
+    },
+    {
+        "id": 179,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": [
+            "Margaret Thatcher",
+            "Theresa May",
+            "Priti Patel",
+            "Harriet Harman"
+        ],
+        "answer": "Margaret Thatcher"
+    },
+    {
+        "id": 180,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "Which language is known as a scripting language used primarily for web development?",
+        "options": [
+            "JavaScript",
+            "Java",
+            "C++",
+            "Ruby"
+        ],
+        "answer": "JavaScript"
+    },
+    {
+        "id": 181,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which country has the most number of time zones?",
+        "options": [
+            "Russia",
+            "USA",
+            "China",
+            "France"
+        ],
+        "answer": "France"
+    },
+    {
+        "id": 182,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "What is the sum of the angles in a triangle?",
+        "options": [
+            "180 degrees",
+            "360 degrees",
+            "90 degrees",
+            "270 degrees"
+        ],
+        "answer": "180 degrees"
+    },
+    {
+        "id": 183,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Which U.S. President issued the Emancipation Proclamation?",
+        "options": [
+            "Abraham Lincoln",
+            "Andrew Johnson",
+            "Ulysses S. Grant",
+            "Theodore Roosevelt"
+        ],
+        "answer": "Abraham Lincoln"
+    },
+    {
+        "id": 184,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "Which algorithm is commonly used for sorting data in computer science?",
+        "options": [
+            "Quick Sort",
+            "Binary Search",
+            "Hashing",
+            "Breadth-First Search"
+        ],
+        "answer": "Quick Sort"
+    },
+    {
+        "id": 185,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "What is the capital city of Japan?",
+        "options": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Hiroshima"
+        ],
+        "answer": "Tokyo"
+    },
+    {
+        "id": 186,
+        "qtype": "medium",
+        "domain": "aptitude",
+        "qname": "If a rectangle's length is doubled and the width is halved, how does the area change?",
+        "options": [
+            "It remains the same",
+            "It doubles",
+            "It is halved",
+            "It quadruples"
+        ],
+        "answer": "It doubles"
+    },
+    {
+        "id": 187,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which treaty ended World War I?",
+        "options": [
+            "Treaty of Versailles",
+            "Treaty of Paris",
+            "Treaty of Ghent",
+            "Treaty of Rome"
+        ],
+        "answer": "Treaty of Versailles"
+    },
+    {
+        "id": 188,
+        "qtype": "easy",
+        "domain": "technical",
+        "qname": "What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Coding Style Sheets"
+        ],
+        "answer": "Cascading Style Sheets"
+    },
+    {
+        "id": 189,
+        "qtype": "medium",
+        "domain": "geography",
+        "qname": "Which is the longest mountain range in the world?",
+        "options": [
+            "Andes",
+            "Himalayas",
+            "Rockies",
+            "Alps"
+        ],
+        "answer": "Andes"
+    },
+    {
+        "id": 190,
+        "qtype": "hard",
+        "domain": "aptitude",
+        "qname": "What is the value of 7 factorial (7!)?",
+        "options": [
+            "5040",
+            "720",
+            "40320",
+            "120"
+        ],
+        "answer": "5040"
+    },
+    {
+        "id": 191,
+        "qtype": "easy",
+        "domain": "political and history",
+        "qname": "Who was the first woman to win a Nobel Prize?",
+        "options": [
+            "Marie Curie",
+            "Rosalind Franklin",
+            "Ada Lovelace",
+            "Jane Goodall"
+        ],
+        "answer": "Marie Curie"
+    },
+    {
+        "id": 192,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "Which version control system is most commonly used for code management?",
+        "options": [
+            "Git",
+            "Subversion",
+            "Mercurial",
+            "Perforce"
+        ],
+        "answer": "Git"
+    },
+    {
+        "id": 193,
+        "qtype": "hard",
+        "domain": "geography",
+        "qname": "Which is the largest desert in the world?",
+        "options": [
+            "Sahara Desert",
+            "Arctic Desert",
+            "Gobi Desert",
+            "Kalahari Desert"
+        ],
+        "answer": "Antarctic Desert"
+    },
+    {
+        "id": 194,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "What is the result of 15 divided by 3?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "7"
+        ],
+        "answer": "5"
+    },
+    {
+        "id": 195,
+        "qtype": "medium",
+        "domain": "political and history",
+        "qname": "Which ancient civilization built the pyramids of Giza?",
+        "options": [
+            "Egyptians",
+            "Romans",
+            "Greeks",
+            "Mayans"
+        ],
+        "answer": "Egyptians"
+    },
+    {
+        "id": 196,
+        "qtype": "hard",
+        "domain": "technical",
+        "qname": "What is the purpose of a firewall in network security?",
+        "options": [
+            "To block unauthorized access",
+            "To provide internet access",
+            "To encrypt data",
+            "To monitor network traffic"
+        ],
+        "answer": "To block unauthorized access"
+    },
+    {
+        "id": 197,
+        "qtype": "easy",
+        "domain": "geography",
+        "qname": "Which river is the longest in Europe?",
+        "options": [
+            "Danube",
+            "Rhine",
+            "Volga",
+            "Elbe"
+        ],
+        "answer": "Volga"
+    },
+    {
+        "id": 198,
+        "qtype": "medium",
+        "domain": "technical",
+        "qname": "What does the acronym 'RAM' stand for in computer hardware?",
+        "options": [
+            "Random Access Memory",
+            "Read Access Memory",
+            "Rapid Access Memory",
+            "Remote Access Memory"
+        ],
+        "answer": "Random Access Memory"
+    },
+    {
+        "id": 199,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which U.S. President was in office during the Cuban Missile Crisis?",
+        "options": [
+            "John F. Kennedy",
+            "Lyndon B. Johnson",
+            "Richard Nixon",
+            "Dwight D. Eisenhower"
+        ],
+        "answer": "John F. Kennedy"
+    },
+    {
+        "id": 200,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "What is the square root of 64?",
+        "options": [
+            "8",
+            "6",
+            "10",
+            "12"
+        ],
+        "answer": "8"
+    },
+    {
+        "id": 201,
+        "qtype": "easy",
+        "domain": "aptitude",
+        "qname": "Minimun cuts required to divide a cake into 8 pieces?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": "3"
+    }
+]

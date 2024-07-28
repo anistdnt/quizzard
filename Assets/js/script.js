@@ -19,13 +19,21 @@ document.getElementById('closeModal').addEventListener('click', function() {
 
 document.getElementById("exam-submit-yes").addEventListener("click",()=>{
     const formData = new FormData(document.getElementById("questions"));
+    const user = document.getElementById("user-details-username").innerHTML;
+    const level = document.getElementById("user-details-level").innerHTML;
+    const domain = document.getElementById("user-details-domain").innerHTML;
 
     const formObject = {};
     formData.forEach((value, key) => {
         formObject[key] = value;
     });
 
-    const jsonData = JSON.stringify(formObject);
+    const jsonData = {
+        username : user.toLowerCase(),
+        qtype : level.toLowerCase(),
+        domain : domain.toLowerCase(),
+        useranswer : formObject
+    };
 
     console.log(jsonData);
     document.getElementById("examination-popup").classList.toggle("hidden");

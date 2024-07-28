@@ -2,6 +2,8 @@ const express = require("express");
 require("dotenv").config();
 const app = express();
 const path = require("path");
+const bodyParser = require("body-parser");
+const {DatabaseConnect} = require("./Database/connect");
 const {engine} = require("express-handlebars");
 const home = require("./Rouer/Home/route");
 const startquiz = require("./Rouer/Startquiz/route");
@@ -10,11 +12,18 @@ const result = require("./Rouer/Results/route");
 const prev = require("./Rouer/Previous/route");
 const port = process.env.PORT || 3000;
 
-app.engine('handlebars', engine());
+app.engine('handlebars', engine({
+    runtimeOptions: {
+        allowProtoPropertiesByDefault: true,
+        allowProtoMethodsByDefault: true
+    }
+}));
 app.set('view engine', 'handlebars');
 app.set('views', './views');
 
 app.use(express.static(path.join(__dirname,"Assets")));
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.json());
 app.use("/",home);
 app.use("/startquiz",startquiz);
 app.use("/exam",exam);
@@ -23,8 +32,10 @@ app.use("/prev",prev);
 app.use("/result",result);
 
 
+
 const start = async()=>{
     try {
+        await DatabaseConnect();
         app.listen(port,()=>{
             console.log(`Application started at port ${port}`);
         })
