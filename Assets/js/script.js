@@ -7,29 +7,12 @@ document.querySelector('.close').addEventListener('click', function() {
     document.querySelector('.menu').classList.toggle('translate-x-full');
 });
 
-// document.getElementById('exam-submit-yes').addEventListener('click', function() {
-//     document.getElementById('modal').classList.remove('hidden');
-// });
+
 document.getElementById("exam-submit-no").addEventListener("click",()=>{
     document.getElementById("examination-popup").classList.toggle("hidden");
 })
 
-document.getElementById("questions").addEventListener("submit",(e)=>{
-    e.preventDefault();
-    document.getElementById("examination-popup").classList.toggle("hidden");
-})
-
-
-document.getElementById('closeBtn').addEventListener('click',()=> {
-    console.log(1)
-    document.getElementById('modal').classList.toggle('hidden');
-});
-
-document.getElementById('closeModal').addEventListener('click',()=> {
-    document.getElementById('modal').classList.toggle('hidden');
-});
-
-document.getElementById("exam-submit-yes").addEventListener("click",async ()=>{
+document.getElementById("exam-submit-yes").addEventListener("click",async()=>{
     const formData = new FormData(document.getElementById("questions"));
     const user = document.getElementById("user-details-username").innerHTML;
     const level = document.getElementById("user-details-level").innerHTML;
@@ -47,8 +30,6 @@ document.getElementById("exam-submit-yes").addEventListener("click",async ()=>{
         useranswer : formObject
     };
 
-    console.log(jsonData)
-
     let response = await fetch('/exam',{
         method : "POST",
         headers: {
@@ -65,3 +46,7 @@ document.getElementById("exam-submit-yes").addEventListener("click",async ()=>{
     window.location.href = `/result?token=${data.token}`;
 })
 
+document.getElementById("questions").addEventListener("submit",(e)=>{
+    e.preventDefault();
+    document.getElementById("examination-popup").classList.toggle("hidden");
+})

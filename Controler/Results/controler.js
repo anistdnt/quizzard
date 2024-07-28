@@ -4,19 +4,20 @@ const privateKey = process.env.SECRET_KEY;
 
 const resultFunc = async(req, res) => {
     try {
+        var submittedData;
         const {token} = req.query
         if (token) {
             jwt.verify(token, privateKey, (err, decoded) => {
                 if (err) {
-                    res.status(401).json({ message: 'Failed to authenticate token' });
+                    throw Error('Failed to authenticate token')
                 } else {
-                    var submittedData = decoded;
+                    submittedData = decoded;
                 }
             });
         } else {
-            res.status(403).json({ message: 'No token provided' });
+            throw Error('No token provided')
         }
-
+        console.log(submittedData)
         
         res.render("result", {
             quizdata: [
@@ -44,7 +45,7 @@ const resultFunc = async(req, res) => {
         });
     } catch (error) {
         res.status(404).render("error", {
-            msg: error
+            msg: error.message
         })
     }
 }
