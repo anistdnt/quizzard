@@ -5,17 +5,17 @@ document.querySelector('.close').addEventListener('click', function() {
     document.querySelector('.menu').classList.toggle('translate-x-full');
 });
 
-// document.getElementById('submitBtn').addEventListener('click', function() {
-//     document.getElementById('modal').classList.remove('hidden');
-// });
+document.getElementById('exam-submit-yes').addEventListener('click', function() {
+    document.getElementById('modal').classList.remove('hidden');
+});
 
-// document.getElementById('closeBtn').addEventListener('click', function() {
-//     document.getElementById('modal').classList.add('hidden');
-// });
+document.getElementById('closeBtn').addEventListener('click', function() {
+    document.getElementById('modal').classList.add('hidden');
+});
 
-// document.getElementById('closeModal').addEventListener('click', function() {
-//     document.getElementById('modal').classList.add('hidden');
-// });
+document.getElementById('closeModal').addEventListener('click', function() {
+    document.getElementById('modal').classList.add('hidden');
+});
 
 document.getElementById("exam-submit-yes").addEventListener("click",()=>{
     const formData = new FormData(document.getElementById("questions"));
