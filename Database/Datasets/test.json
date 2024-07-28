@@ -1,0 +1,262 @@
+[
+    {
+        "id": 223,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "In which year did the United States declare its independence?",
+        "options": [
+            "1775",
+            "1776",
+            "1777",
+            "1778"
+        ],
+        "answer": "1776"
+    },
+    {
+        "id": 224,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Who was the first Chancellor of the German Empire in 1871?",
+        "options": [
+            "Otto von Bismarck",
+            "Friedrich Ebert",
+            "Konrad Adenauer",
+            "Helmut Kohl"
+        ],
+        "answer": "Otto von Bismarck"
+    },
+    {
+        "id": 225,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which event marked the beginning of the Great Depression?",
+        "options": [
+            "Black Tuesday",
+            "Black Thursday",
+            "Black Monday",
+            "Black Friday"
+        ],
+        "answer": "Black Tuesday"
+    },
+    {
+        "id": 226,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Who was the British Prime Minister at the start of World War II?",
+        "options": [
+            "Neville Chamberlain",
+            "Winston Churchill",
+            "Clement Attlee",
+            "David Lloyd George"
+        ],
+        "answer": "Neville Chamberlain"
+    },
+    {
+        "id": 227,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which empire was known for its road system, including the Appian Way?",
+        "options": [
+            "Roman Empire",
+            "Greek Empire",
+            "Ottoman Empire",
+            "Byzantine Empire"
+        ],
+        "answer": "Roman Empire"
+    },
+    {
+        "id": 228,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+        "options": [
+            "Nikita Khrushchev",
+            "Joseph Stalin",
+            "Leonid Brezhnev",
+            "Mikhail Gorbachev"
+        ],
+        "answer": "Nikita Khrushchev"
+    },
+    {
+        "id": 229,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "What was the primary purpose of the Marshall Plan?",
+        "options": [
+            "To rebuild European economies after World War II",
+            "To form a military alliance against the Soviet Union",
+            "To promote space exploration",
+            "To establish the United Nations"
+        ],
+        "answer": "To rebuild European economies after World War II"
+    },
+    {
+        "id": 230,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which country was led by Charles de Gaulle during World War II?",
+        "options": [
+            "France",
+            "Germany",
+            "United Kingdom",
+            "Italy"
+        ],
+        "answer": "France"
+    },
+    {
+        "id": 231,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which U.S. President authorized the use of atomic bombs on Japan?",
+        "options": [
+            "Franklin D. Roosevelt",
+            "Harry S. Truman",
+            "Dwight D. Eisenhower",
+            "John F. Kennedy"
+        ],
+        "answer": "Harry S. Truman"
+    },
+    {
+        "id": 232,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "In what year did the United Nations officially come into existence?",
+        "options": [
+            "1943",
+            "1944",
+            "1945",
+            "1946"
+        ],
+        "answer": "1945"
+    },
+    {
+        "id": 233,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "What event is marked by Bastille Day in France?",
+        "options": [
+            "The start of the French Revolution",
+            "The end of World War I",
+            "The coronation of Napoleon",
+            "The signing of the Treaty of Versailles"
+        ],
+        "answer": "The start of the French Revolution"
+    },
+    {
+        "id": 234,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which U.S. President issued the Monroe Doctrine?",
+        "options": [
+            "James Monroe",
+            "Thomas Jefferson",
+            "James Madison",
+            "John Quincy Adams"
+        ],
+        "answer": "James Monroe"
+    },
+    {
+        "id": 235,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which battle marked the end of Napoleon's rule?",
+        "options": [
+            "Battle of Waterloo",
+            "Battle of Austerlitz",
+            "Battle of Leipzig",
+            "Battle of Borodino"
+        ],
+        "answer": "Battle of Waterloo"
+    },
+    {
+        "id": 236,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Who was the first President of the United States?",
+        "options": [
+            "George Washington",
+            "John Adams",
+            "Thomas Jefferson",
+            "James Madison"
+        ],
+        "answer": "George Washington"
+    },
+    {
+        "id": 237,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which U.S. state was the first to secede from the Union before the Civil War?",
+        "options": [
+            "Virginia",
+            "Texas",
+            "South Carolina",
+            "Georgia"
+        ],
+        "answer": "South Carolina"
+    },
+    {
+        "id": 238,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "In what year did the Russian Revolution begin?",
+        "options": [
+            "1915",
+            "1916",
+            "1917",
+            "1918"
+        ],
+        "answer": "1917"
+    },
+    {
+        "id": 239,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which country was the primary aggressor in the Hundred Years' War?",
+        "options": [
+            "England",
+            "France",
+            "Spain",
+            "Germany"
+        ],
+        "answer": "England"
+    },
+    {
+        "id": 240,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "What was the codename for the Allied invasion of Normandy during World War II?",
+        "options": [
+            "Operation Overlord",
+            "Operation Torch",
+            "Operation Market Garden",
+            "Operation Barbarossa"
+        ],
+        "answer": "Operation Overlord"
+    },
+    {
+        "id": 241,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": [
+            "Margaret Thatcher",
+            "Theresa May",
+            "Angela Merkel",
+            "Indira Gandhi"
+        ],
+        "answer": "Margaret Thatcher"
+    },
+    {
+        "id": 242,
+        "qtype": "hard",
+        "domain": "political and history",
+        "qname": "Which document did the Pilgrims sign in 1620 before landing at Plymouth Rock?",
+        "options": [
+            "The Mayflower Compact",
+            "The Declaration of Independence",
+            "The Magna Carta",
+            "The Constitution"
+        ],
+        "answer": "The Mayflower Compact"
+    }
+]
