@@ -29,6 +29,8 @@ app.use("/startquiz",startquiz);
 app.use("/exam",exam);
 app.use("/result",result);
 app.use("/prev",prev);
+app.use("/result",result);
+
 
 
 const start = async()=>{
