@@ -36,7 +36,7 @@
         <div class="mb-5 text-lg question">
             <p class="font-semibold mb-2"><span>{{@index}}. </span>{{this.qname}}</p>
             {{#each this.options}}
-            <input type="radio" name="{{../qname}}" value={{this}}>
+            <input type="radio" name="{{../qname}}" value='{{this}}'>
             <label for="label">{{this}}</label><br>
             {{/each}}
         </div>
