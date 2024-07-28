@@ -1,6 +1,6 @@
 const {QuizSchema} = require("../../Database/connect");
 const mongoose = require("mongoose");
-const { options } = require("../../Rouer/Home/route");
+const jwt = require('jsonwebtoken');
 
 const examFunc = async(req, res) => {
     try {
@@ -31,4 +31,14 @@ const examFunc = async(req, res) => {
     }
 }
 
-module.exports = { examFunc };
+const privateKey = process.env.SECRET_KEY;
+
+
+const examPostFunc = async (req,res)=>{
+    console.log(req.body)
+    const token = jwt.sign(req.body,privateKey,{expiresIn:'1hr'})
+    console.log(token)
+    res.status(200).json({token:token})
+
+}
+module.exports = { examFunc,examPostFunc };
