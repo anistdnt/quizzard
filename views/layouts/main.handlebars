@@ -5,29 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quizzard - an interactive quiz application</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/output.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
-    .glow-border {
-      border: 2px solid;
-      border-color: #fbbf24;
-      box-shadow: 0 0 10px #fbbf24;
-      transition: box-shadow 0.3s ease-in-out;
-    }
-    .glow-border:hover {
-      box-shadow: 0 0 5px #fbbf24, 0 0 10px #fbbf24, 0 0 15px #fbbf24;
-    }
-  </style>
-<body>
-    {{>header}}
-    <div class="flex justify-center items-center min-h-full pt-10 font-poppins">
-    {{{body}}}
-    </div>
+  .glow-border {
+    border: 2px solid;
+    border-color: #fbbf24;
+    box-shadow: 0 0 10px #fbbf24;
+    transition: box-shadow 0.3s ease-in-out;
+  }
 
-    <script src="/js/script.js"></script>
+  .glow-border:hover {
+    box-shadow: 0 0 5px #fbbf24, 0 0 10px #fbbf24, 0 0 15px #fbbf24;
+  }
+</style>
+
+<body>
+  {{>header}}
+  <div class="flex justify-center items-center min-h-full pt-10 font-poppins">
+    {{{body}}}
+  </div>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/resultscript.js"></script>
 </body>
+
 </html>

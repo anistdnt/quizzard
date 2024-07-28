@@ -10,7 +10,7 @@ const examFunc = async(req, res) => {
         }else{
             var uname = Buffer.from(username,"base64").toString("utf-8")
             const quiz = mongoose.model("Quizdata",QuizSchema);
-            const data = await quiz.find({qtype:qtype,domain:domain});
+            const data = await quiz.find({qtype:qtype,domain:domain},{qname:1,options:1});
 
             for (let i = data.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
