@@ -1,0 +1,24 @@
+
+<form action="/signup" method="post" class="bg-yellow-100 px-8 py-10 rounded-xl w-96 shadow-xl shadow-yellow-600 mx-4">
+    <div>
+        <label for="username" class="font-semibold text-lg text-yellow-600 mb-5"
+            style="text-shadow: 0.1px 0.1px 0.2px black;">Name</label><br>
+        <input type="text" name="username" id="name" placeholder="Enter your name"
+            class=" px-5 py-2 my-2 w-full rounded-md focus:outline-yellow-500">
+    </div>
+    <div>
+        <label for="useremail" class="font-semibold text-lg text-yellow-600 mb-5"
+            style="text-shadow: 0.1px 0.1px 0.2px black;">Email</label><br>
+        <input type="email" name="useremail" id="email" placeholder="enter email"
+            class=" px-5 py-2 my-2 w-full rounded-md focus:outline-yellow-500">
+    </div>
+    <div>
+        <label for="userpassword" class="font-semibold text-lg text-yellow-600 mb-5"
+            style="text-shadow: 0.1px 0.1px 0.2px black;">Password</label><br>
+        <input type="password" name="userpassword" id="password" placeholder="enter password"
+            class=" px-5 py-2 my-2 w-full rounded-md focus:outline-yellow-500">
+    </div>
+    <div class="flex gap-4 flex-col sm:flex-row justify-center mt-8">
+        <button type="submit" class="bg-yellow-400 w-full px-5 py-2 text-white font-medium shadow-lg hover:scale-105">Sign Up</button>
+    </div>
+</form>
