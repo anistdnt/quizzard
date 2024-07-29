@@ -31,7 +31,6 @@ app.use("/startquiz",startquiz);
 app.use("/exam",exam);
 app.use("/result",result);
 app.use("/prev",prev);
-app.use("/result",result);
 
 app.get("/",(req,res)=>{
     res.cookie(domain,"hello",{maxAge:10000}).render()
