@@ -30,7 +30,7 @@
 </style>
 
 <body>
-  {{>header}}
+  {{>header data="hello"}}
   <div class="flex justify-center items-center min-h-full pt-10 font-poppins">
     {{{body}}}
   </div>
@@ -39,5 +39,15 @@
   <script src="/js/resultscript.js"></script>
   <script src="/js/download.js"></script>
 </body>
+<script>
+  const queryString = window.location.search;
 
+  const urlParams = new URLSearchParams(queryString);
+
+
+const auth = urlParams.get('auth');
+if(auth === "1"){
+  document.getElementById("account").querySelector('button').innerHTML = 'Account'
+}
+</script>
 </html>
