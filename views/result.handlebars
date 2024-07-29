@@ -9,7 +9,7 @@
             <img src="resultPopup.jpg" alt="" class="h-[200px] w-[200px]">
             <div id="score" class=" z-30 flex flex-col items-center justify-center absolute text-white font-medium transform -translate-x-1/2 -translate-y-1/2 gap-4 top-1/2 left-1/2">
                 <p class="text-lg md:text-2xl">Your Score</p>
-                <p class="text-4xl md:text-6xl">7</p>
+                <p class="text-4xl md:text-6xl">{{quizdata.marks}}</p>
             </div>
         </div>
       <div class="text-right">
@@ -24,41 +24,40 @@
 
 <div class="bg-yellow-50 w-11/12 md:w-10/12 px-1 md:px-8 py-6">
     <div id="user-details" class=" mb-8 text-lg font-semibold">
-        <p>Username : <span class="text-xl text-yellow-600" style="text-shadow: 0.1px 0.1px 0.1px black;">Arkabrata
-                Chandra</span></p>
+        <p>Username : <span class="text-xl text-yellow-600" style="text-shadow: 0.1px 0.1px 0.1px black;">{{quizdata.username}}</span></p>
         <p>Question Level : <span class="text-xl text-yellow-600"
-                style="text-shadow: 0.1px 0.1px 0.1px black;">Easy</span></p>
+                style="text-shadow: 0.1px 0.1px 0.1px black;">{{quizdata.qtype}}</span></p>
         <p>Domain Choosen : <span class="text-xl text-yellow-600"
-                style="text-shadow: 0.1px 0.1px 0.1px black;">Technical</span></p>
+                style="text-shadow: 0.1px 0.1px 0.1px black;">{{quizdata.domain}}</span></p>
     </div>
     <div id="score-board" class="mb-5">
         <div
             class="flex flex-col sm:flex-row bg-yellow-400 px-3 py-2 justify-between items-center mb-3 font-semibold text-md">
-            <div>You have corrected 5 out of 10 Questions</div>
+            <div>You have corrected {{quizdata.marks}} out of 10 Questions</div>
             <div class="flex flex-row ">
-                <div class="mx-4"><i class="fa-solid fa-check mr-1 text-green-600"></i>5 Correct</div>
-                <div><i class="fa-solid fa-xmark mr-1 text-red-700"></i>5 Wrong</div>
+                <div class="mx-4"><i class="fa-solid fa-check mr-1 text-green-600"></i>{{quizdata.marks}} Correct</div>
+                <div><i class="fa-solid fa-xmark mr-1 text-red-700"></i>{{quizdata.wrong_answer}} Wrong</div>
             </div>
         </div>
     </div>
     <div id="questions">
-        {{#each quizdata}}
+        {{#each quizdata.results}}
         <div class="mb-5 text-lg">
             <p class="font-semibold mb-2"><span>{{@index}}. </span>{{this.qname}}</p>
 
             {{#each this.options}}
-            <input type="radio" name="qname" value={{this}}>
+            <input type="radio" name="{{../qname}}" value="{{this}}">
             <label for="css">{{this}}</label><br>
             {{/each}}
 
             {{#if this.status}}
             <div class=" mt-4 bg-green-400 font-semibold">
-                <p><i class="fa-solid fa-check mr-1 text-green-800"></i>Your Answer : {{this.useranswer}}</p>
+                <p><i class="fa-solid fa-check mr-1 text-green-800"></i>Your Answer : {{this.u_answer}}</p>
                 <p><i class="fa-solid fa-check mr-1 text-green-800"></i>Correct Answer : {{this.answer}}</p>
             </div>
             {{else}}
             <div class=" mt-4 bg-red-400 font-semibold">
-                <p><i class="fa-solid fa-xmark mr-1 text-red-700"></i>Your Answer : {{this.useranswer}}</p>
+                <p><i class="fa-solid fa-xmark mr-1 text-red-700"></i>Your Answer : {{this.u_answer}}</p>
                 <p><i class="fa-solid fa-check mr-1 text-green-600"></i>Correct Answer : {{this.answer}}</p>
             </div>
             {{/if}}

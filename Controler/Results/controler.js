@@ -18,7 +18,23 @@ const resultFunc = async(req, res) => {
                 }
             });
         } else {
-            throw Error('No token provided')
+            const {predatatoken} = req.query;
+            if(predatatoken){
+                jwt.verify(predatatoken, privateKey, (err, decoded) => {
+                    if (err) {
+                        throw Error('Failed to authenticate token')
+                    } else {
+                        submittedData = decoded;
+                    }
+                });
+
+                res.render("result", {
+                    quizdata: submittedData
+                });
+
+            }else{
+                throw Error('No token provided')
+            }
         }
         // console.log(submittedData)
 
@@ -27,13 +43,11 @@ const resultFunc = async(req, res) => {
         const quiz = mongoose.model("Quizdata",QuizSchema);
         const data = await quiz.find({qtype:qtype,domain:domain},{qname:1,answer:1,options:1,_id:0});
 
-        console.log(data)
         const result = []
-        let marks = 0
+        var marks = 0
         const inc_keys = Object.keys(useranswer)
         for(const qs of inc_keys){
             let individualElement = data.filter((item)=>{return item.qname===qs})
-            // console.log(useranswer)
             if(useranswer[qs]===individualElement[0]['answer']){
                 var new_obj = {
                     qname:individualElement[0]['qname'],
@@ -55,31 +69,23 @@ const resultFunc = async(req, res) => {
             result.push(new_obj);
         }
         
-        console.log(result)
+        // console.log(result)
+
+        const new_result_obj = {
+            username : submittedData.username,
+            qtype : submittedData.qtype.charAt(0).toUpperCase() + submittedData.qtype.slice(1),
+            domain : submittedData.domain.charAt(0).toUpperCase() + submittedData.domain.slice(1),
+            marks : marks,
+            wrong_answer : (10-marks),
+            results : result
+        }
+
+        // console.log(new_result_obj)
+
+        const mycookietoken = jwt.sign(new_result_obj,process.env.SECRET_KEY,{expiresIn:'24hr'})
         
-        res.render("result", {
-            quizdata: [
-                {
-                    id: 1,
-                    qtype: "easy",
-                    domain: "technical",
-                    qname: "Javascript is ____ in nature?",
-                    options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
-                    answer: "Asynchronous",
-                    useranswer : "Synchronous",
-                    status : false
-                },
-                {
-                    id: 2,
-                    qtype: "intermediate",
-                    domain: "aptitude",
-                    qname: "Javascript is ____ in nature?",
-                    options: ["Asynchronous", "Synchronous", "Multithreaded", "Single Threaded"],
-                    answer: "Asynchronous",
-                    useranswer : "Asynchronous",
-                    status : true
-                }
-            ]
+        res.cookie(domain,mycookietoken,{maxAge:172800000}).render("result", {
+            quizdata: new_result_obj
         });
     } catch (error) {
         res.status(404).render("error", {

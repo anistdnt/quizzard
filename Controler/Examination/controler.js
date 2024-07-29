@@ -35,9 +35,9 @@ const privateKey = process.env.SECRET_KEY;
 
 
 const examPostFunc = async (req,res)=>{
-    console.log(req.body)
+    // console.log(req.body)
     const token = jwt.sign(req.body,privateKey,{expiresIn:'1hr'})
-    console.log(token)
+    // console.log(token)
     res.status(200).json({token:token})
 
 }
