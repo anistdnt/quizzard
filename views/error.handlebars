@@ -1,23 +1,14 @@
-<section class=" py-[40px] px-0 bg-white font-serif">
-	<div class="container">
-		<div class="row">	
-		<div class="col-sm-12 ">
-		<div class="col-sm-10 col-sm-offset-1  text-center">
-		<div class=" bg-[url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif)] h-[400px] bg-center">
-			<h1 class="text-center">404</h1>
-		</div>
-		
-		<div class="contant_box_404">
-		<h3 class="h2">
-		Look like you're lost
-		</h3>
-		
-		<p>the page you are looking for not avaible!</p>
-		
-		<a href="/" class="link_404">Go to Home</a>
-	</div>
-		</div>
-		</div>
+<section class="flex items-center">
+	<div class="flex flex-col items-center justify-center px-5 mx-auto my-8">
+		<div class="w-md text-center">
+			<h2 class="mb-8 font-extrabold text-9xl dark:text-gray-400 text-yellow-500">
+				<span class="sr-only">Error</span>404
+			</h2>
+			<p class="text-2xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
+			<p class="mt-4 mb-8 dark:text-gray-600">{{msg}}
+			</p>
+			<a rel="noopener noreferrer" href="/"
+				class="px-8 py-3 font-semibold rounded bg-yellow-500 hover:bg-yellow-600 text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>
