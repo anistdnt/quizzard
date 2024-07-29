@@ -22,7 +22,7 @@
 
 
 
-<div class="bg-yellow-50 w-11/12 md:w-10/12 px-1 md:px-8 py-6">
+<div id="content" class="bg-yellow-50 w-11/12 md:w-10/12 px-1 md:px-8 py-6">
     <div id="user-details" class=" mb-8 text-lg font-semibold">
         <p>Username : <span class="text-xl text-yellow-600" style="text-shadow: 0.1px 0.1px 0.1px black;">{{quizdata.username}}</span></p>
         <p>Question Level : <span class="text-xl text-yellow-600"
@@ -64,8 +64,8 @@
         </div>
         {{/each}}
         <div id="btn" class="flex flex-row justify-center items-center gap-10">
-            <button class="bg-yellow-400 px-5 py-2 shadow-lg"><i
-                    class="fa-solid fa-hourglass-start mr-1"></i>Print</button>
+            <button id="download" class="bg-yellow-400 px-5 py-2 shadow-lg"><i
+                    class="fa-solid fa-hourglass-start mr-1"></i>Download</button>
         </div>
     </div>
 </div>
