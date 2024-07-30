@@ -10,6 +10,12 @@ const QuizSchema = mongoose.Schema({
     answer : String
 })
 
+const UserSchema = mongoose.Schema({
+    username: String,
+    useremail: String,
+    userpassword: String
+})
+
 const DatabaseConnect = async()=>{
     try {
         await mongoose.connect(process.env.DATABASE_URI);
@@ -19,4 +25,4 @@ const DatabaseConnect = async()=>{
     }
 }
 
-module.exports = {QuizSchema,DatabaseConnect};
+module.exports = {QuizSchema,UserSchema,DatabaseConnect};
