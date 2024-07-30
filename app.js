@@ -11,6 +11,7 @@ const startquiz = require("./Rouer/Startquiz/route");
 const exam = require("./Rouer/Examination/route");
 const result = require("./Rouer/Results/route");
 const prev = require("./Rouer/Previous/route");
+const notfound = require("./Rouer/NotFound/route");
 const port = process.env.PORT || 3000;
 
 app.engine('handlebars', engine({
@@ -31,6 +32,7 @@ app.use("/startquiz",startquiz);
 app.use("/exam",exam);
 app.use("/result",result);
 app.use("/prev",prev);
+app.use("*",notfound);
 
 app.get("/",(req,res)=>{
     res.cookie(domain,"hello",{maxAge:10000}).render()
