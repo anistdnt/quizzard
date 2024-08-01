@@ -1,6 +1,19 @@
+const jwt = require('jsonwebtoken');
+
+
 const homeFunc = (req,res)=>{
     try {
-        res.render("home");
+        const loginCookieToken = req.cookies.user
+        console.log(loginCookieToken)
+        if(loginCookieToken != undefined){
+            res.render('home',{
+                btnlink : '/startquiz?auth=1'
+            })
+        }else{
+            res.render('home',{
+                btnlink : '/login'
+            })
+        }
     } catch (error) {
         res.render("error",{
             msg : error.message
