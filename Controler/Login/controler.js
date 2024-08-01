@@ -1,5 +1,6 @@
 const {UserSchema} = require("../../Database/connect");
 const mongoose = require("mongoose");
+const jwt = require("jsonwebtoken");
 
 
 const loginFunc = (req,res)=>{
@@ -20,7 +21,9 @@ const loginPostFunc = async (req,res)=>{
         if(loginstatus.length === 0){
             res.redirect("/login");
         }else{
-            res.redirect("/?auth=1");
+            const mycookietoken = jwt.sign(loginstatus[0],process.env.SECRET_KEY,{expiresIn:'24hr'})
+
+            res.cookie(user,mycookietoken,{maxAge:172800000}).redirect("/");
         }
     } catch (error) {
         res.render("error",{
