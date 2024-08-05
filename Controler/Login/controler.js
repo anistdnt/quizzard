@@ -23,9 +23,8 @@ const loginPostFunc = async (req,res)=>{
         if(loginstatus.length === 0){
             res.redirect("/login");
         }else{
-            const loginCookieToen = jwt.sign(loginstatus[0].toJSON(),privateKey,{expiresIn:'24hr'})
-            res.cookie('user',loginCookieToen,{maxAge:172800000})
-            res.redirect("/");
+            const loginCookieToken = jwt.sign(loginstatus[0].toJSON(),process.env.SECRET_KEY,{expiresIn:'24hr'})
+            res.cookie('user',loginCookieToken,{maxAge:172800000}).redirect("/");
         }
     } catch (error) {
         res.render("error",{
