@@ -16,6 +16,8 @@ const UserSchema = mongoose.Schema({
     userpassword: String
 })
 
+UserSchema.index({ username: 1, useremail: 1,userpassword: 1 });
+
 const DatabaseConnect = async()=>{
     try {
         await mongoose.connect(process.env.DATABASE_URI);
