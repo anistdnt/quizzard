@@ -3,6 +3,7 @@
 <hr>
 <h3>Directory Structure</h3>
 <p>
+```
 Quizzard/
 ├── Assets
     └── css/
@@ -53,4 +54,5 @@ Quizzard/
 ├── package-lock.json
 └── package.json
 └── tailwind.config.js
+```
 </p>

@@ -32,7 +32,6 @@ const resultFunc = async (req, res) => {
                                 submittedData = decoded;
                             }
                         });
-
                         res.render("result", {
                             quizdata: submittedData
                         });

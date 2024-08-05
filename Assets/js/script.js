@@ -24,7 +24,7 @@ document.getElementById("exam-submit-yes").addEventListener("click",async()=>{
     });
 
     const jsonData = {
-        username : user.toLowerCase(),
+        username : user,
         qtype : level.toLowerCase(),
         domain : domain.toLowerCase(),
         useranswer : formObject
