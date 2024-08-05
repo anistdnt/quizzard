@@ -2,7 +2,6 @@
 <h1> Link : https://quizzard-production.up.railway.app/</h1>
 <hr>
 <h3>Directory Structure</h3>
-<p>
 ```
 Quizzard/
 ├── Assets
@@ -55,4 +54,3 @@ Quizzard/
 └── package.json
 └── tailwind.config.js
 ```
-</p>
