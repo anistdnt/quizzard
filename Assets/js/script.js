@@ -43,7 +43,7 @@ document.getElementById("exam-submit-yes").addEventListener("click",async()=>{
     document.getElementById("examination-popup").classList.toggle("hidden");
     document.getElementById("questions").reset();
     // console.log(data)
-    window.location.href = `/result?token=${data.token}`;
+    window.location.href = `/result?auth=1&token=${data.token}`;
 })
 
 document.getElementById("questions").addEventListener("submit",(e)=>{

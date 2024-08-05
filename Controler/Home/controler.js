@@ -1,19 +1,18 @@
-const jwt = require("jsonwebtoken");
+const jwt = require('jsonwebtoken');
+
 
 const homeFunc = (req,res)=>{
     try {
-        const {user} = req.cookie;
-        if(user){
-            jwt.verify(user,process.env.SECRET_KEY, (err, decoded) => {
-                if (err) {
-                    throw Error('Failed to authenticate token')
-                } else {
-                    submittedData = decoded;
-                }
-            });
+        const loginCookieToken = req.cookies.user
+        if(loginCookieToken != undefined){
+            res.render('home',{
+                btnlink : '/startquiz?auth=1'
+            })
+        }else{
+            res.render('home',{
+                btnlink : '/login'
+            })
         }
-
-        res.render("home");
     } catch (error) {
         res.render("error",{
             msg : error.message

@@ -9,7 +9,7 @@
           <p class="text-gray-600">Level : {{this.pre_data.qtype}}</p>
           <p class="text-gray-600">Date: 2024-07-25</p>
           <p class="text-gray-600">Marks Obtained: {{this.pre_data.marks}}/10</p>
-          <a href='/result?predatatoken={{this.pre_data_token}}'><button class=" px-4 py-1 bg-yellow-500 rounded-lg mt-2 font-semibold text-white hover:bg-yellow-700">Show Result</button></a>
+          <a href='/result?auth=1&predatatoken={{this.pre_data_token}}'><button class=" px-4 py-1 bg-yellow-500 rounded-lg mt-2 font-semibold text-white hover:bg-yellow-700">Show Result</button></a>
         </div>
       {{/each}}
 
