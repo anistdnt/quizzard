@@ -5,48 +5,48 @@
 ```
 Quizzard/
 ├── Assets
-    └── css/
-        └── input.css
-        └── output.css
-    └── js/
-        └── script.js
-    └── file.jpg
+│ └── css/
+│ ├── input.css
+│ └── output.css
+│ └── js/
+│ └── script.js
+│ └── file.jpg
 ├── nodemodules
 ├── Database/
-│   └── connect.js
+│ └── connect.js
 ├── Controler/
-│   ├── Home/
-│   │   └── controler.js
-│   ├── Examination/
-│   │   └── controler.js
-│   ├── Result/
-│   │   └── controler.js
-│   ├── Startquiz/
-│   │   └── controler.js
-│   └── Previous/
-│       └── controler.js
+│ ├── Home/
+│ │ └── controler.js
+│ ├── Examination/
+│ │ └── controler.js
+│ ├── Result/
+│ │ └── controler.js
+│ ├── Startquiz/
+│ │ └── controler.js
+│ └── Previous/
+│ └── controler.js
 ├── Router/
-│   ├── Home/
-│   │   └── route.js
-│   ├── Examination/
-│   │   └── route.js
-│   ├── Result/
-│   │   └── route.js
-│   ├── Startquiz/
-│   │   └── route.js
-│   └── Previous/
-│       └── route.js
+│ ├── Home/
+│ │ └── route.js
+│ ├── Examination/
+│ │ └── route.js
+│ ├── Result/
+│ │ └── route.js
+│ ├── Startquiz/
+│ │ └── route.js
+│ └── Previous/
+│ └── route.js
 ├── views/
-│   ├── home.handlebars
-│   ├── startquiz.handlebars
-│   ├── examination.handlebars
-│   ├── result.handlebars
-│   ├── previous.handlebars
-│   ├── partials/
-│   │   ├── header.handlebars
-│   │   └── footer.handlebars
-│   └── layouts/
-│       └── main.handlebars
+│ ├── home.handlebars
+│ ├── startquiz.handlebars
+│ ├── examination.handlebars
+│ ├── result.handlebars
+│ ├── previous.handlebars
+│ ├── partials/
+│ │ ├── header.handlebars
+│ │ └── footer.handlebars
+│ └── layouts/
+│ └── main.handlebars
 ├── app.js
 ├── .env
 ├── .gitignore
