@@ -1,5 +1,5 @@
 <p>Below is the live link of the project</p>
-<h1> Link : https://quizzard-production.up.railway.app/</h1>
+<h1> Link : quizzard-production-d103.up.railway.app</h1>
 <hr>
 <h3>Directory Structure</h3>
 
